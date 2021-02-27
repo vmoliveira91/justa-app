@@ -74,3 +74,9 @@ Após a imagem criada, para rodar a imagem executar o seguinte comando:
 ```bash
 docker run justa-app
 ```
+
+Agora que a imagem já está sendo executado para fazer uma requisição é necessário acessar a seguinte URL com uma *expression* seguindo os padrões citados acima:
+
+```bash
+localhost:8083/units/si?units=expression
+```
